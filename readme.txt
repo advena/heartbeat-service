@@ -60,3 +60,9 @@ CONFIGURATION
 	- start service
 	
 - PLEASE DO NOT MODIFY report.csv - if you want to reuse it simply make a copy.
+
+- to configure report.csv file rotation open heartbeat.properties
+	- report.create - stands for with what frequency new report.csv should be created 1 is daily
+	- report.delete - stands for how long should old reports persist no drive in days
+	- report.path - stands for directory where old reports are stored
+
